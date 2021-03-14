@@ -31,6 +31,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="UIButton:" destination="BYZ-38-t0r" eventType="touchDown" id="tDw-EK-7LS"/>
+                                    <action selector="UILoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gHH-de-bDk"/>
                                     <segue destination="7eu-Ur-ZGq" kind="show" id="gjy-l6-2O8"/>
                                 </connections>
                             </button>
@@ -39,6 +41,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Not on Learnify yet? Checkout The Tutorial"/>
                                 <connections>
+                                    <action selector="SignUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lo-8R-398"/>
                                     <segue destination="rYZ-TO-no7" kind="show" id="rPZ-bO-VcH"/>
                                 </connections>
                             </button>
@@ -46,6 +49,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="UIButton" destination="a4g-jc-JOJ" id="ZqF-z7-Cer"/>
+                        <outlet property="introHeroLabel" destination="R3U-Kt-ZBZ" id="Q9X-8b-I53"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
