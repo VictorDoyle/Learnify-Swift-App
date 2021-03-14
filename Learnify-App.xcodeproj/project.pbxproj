@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EE66B4E25FE846E008D8287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE66B4D25FE846E008D8287 /* AppDelegate.swift */; };
+		8EE66B5025FE846E008D8287 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE66B4F25FE846E008D8287 /* SceneDelegate.swift */; };
+		8EE66B5225FE846E008D8287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE66B5125FE846E008D8287 /* ViewController.swift */; };
+		8EE66B5525FE846E008D8287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE66B5325FE846E008D8287 /* Main.storyboard */; };
+		8EE66B5825FE846E008D8287 /* Learnify_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EE66B5625FE846E008D8287 /* Learnify_App.xcdatamodeld */; };
+		8EE66B5A25FE8470008D8287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE66B5925FE8470008D8287 /* Assets.xcassets */; };
+		8EE66B5D25FE8470008D8287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE66B5B25FE8470008D8287 /* LaunchScreen.storyboard */; };
+		8EE66B6825FE8470008D8287 /* Learnify_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE66B6725FE8470008D8287 /* Learnify_AppTests.swift */; };
+		8EE66B7325FE8470008D8287 /* Learnify_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE66B7225FE8470008D8287 /* Learnify_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EE66B6425FE8470008D8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE66B4225FE846E008D8287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE66B4925FE846E008D8287;
+			remoteInfo = "Learnify-App";
+		};
+		8EE66B6F25FE8470008D8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE66B4225FE846E008D8287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE66B4925FE846E008D8287;
+			remoteInfo = "Learnify-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EE66B4A25FE846E008D8287 /* Learnify-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learnify-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE66B4D25FE846E008D8287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE66B4F25FE846E008D8287 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EE66B5125FE846E008D8287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EE66B5425FE846E008D8287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE66B5725FE846E008D8287 /* Learnify_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learnify_App.xcdatamodel; sourceTree = "<group>"; };
+		8EE66B5925FE8470008D8287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE66B5C25FE8470008D8287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE66B5E25FE8470008D8287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE66B6325FE8470008D8287 /* Learnify-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learnify-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE66B6725FE8470008D8287 /* Learnify_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learnify_AppTests.swift; sourceTree = "<group>"; };
+		8EE66B6925FE8470008D8287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE66B6E25FE8470008D8287 /* Learnify-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learnify-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE66B7225FE8470008D8287 /* Learnify_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learnify_AppUITests.swift; sourceTree = "<group>"; };
+		8EE66B7425FE8470008D8287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE66B4725FE846E008D8287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE66B6025FE8470008D8287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE66B6B25FE8470008D8287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EE66B4125FE846E008D8287 = {
+			isa = PBXGroup;
+			children = (
+				8EE66B4C25FE846E008D8287 /* Learnify-App */,
+				8EE66B6625FE8470008D8287 /* Learnify-AppTests */,
+				8EE66B7125FE8470008D8287 /* Learnify-AppUITests */,
+				8EE66B4B25FE846E008D8287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE66B4B25FE846E008D8287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE66B4A25FE846E008D8287 /* Learnify-App.app */,
+				8EE66B6325FE8470008D8287 /* Learnify-AppTests.xctest */,
+				8EE66B6E25FE8470008D8287 /* Learnify-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE66B4C25FE846E008D8287 /* Learnify-App */ = {
+			isa = PBXGroup;
+			children = (
+				8EE66B4D25FE846E008D8287 /* AppDelegate.swift */,
+				8EE66B4F25FE846E008D8287 /* SceneDelegate.swift */,
+				8EE66B5125FE846E008D8287 /* ViewController.swift */,
+				8EE66B5325FE846E008D8287 /* Main.storyboard */,
+				8EE66B5925FE8470008D8287 /* Assets.xcassets */,
+				8EE66B5B25FE8470008D8287 /* LaunchScreen.storyboard */,
+				8EE66B5E25FE8470008D8287 /* Info.plist */,
+				8EE66B5625FE846E008D8287 /* Learnify_App.xcdatamodeld */,
+			);
+			path = "Learnify-App";
+			sourceTree = "<group>";
+		};
+		8EE66B6625FE8470008D8287 /* Learnify-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE66B6725FE8470008D8287 /* Learnify_AppTests.swift */,
+				8EE66B6925FE8470008D8287 /* Info.plist */,
+			);
+			path = "Learnify-AppTests";
+			sourceTree = "<group>";
+		};
+		8EE66B7125FE8470008D8287 /* Learnify-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE66B7225FE8470008D8287 /* Learnify_AppUITests.swift */,
+				8EE66B7425FE8470008D8287 /* Info.plist */,
+			);
+			path = "Learnify-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE66B4925FE846E008D8287 /* Learnify-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE66B7725FE8470008D8287 /* Build configuration list for PBXNativeTarget "Learnify-App" */;
+			buildPhases = (
+				8EE66B4625FE846E008D8287 /* Sources */,
+				8EE66B4725FE846E008D8287 /* Frameworks */,
+				8EE66B4825FE846E008D8287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learnify-App";
+			productName = "Learnify-App";
+			productReference = 8EE66B4A25FE846E008D8287 /* Learnify-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EE66B6225FE8470008D8287 /* Learnify-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE66B7A25FE8470008D8287 /* Build configuration list for PBXNativeTarget "Learnify-AppTests" */;
+			buildPhases = (
+				8EE66B5F25FE8470008D8287 /* Sources */,
+				8EE66B6025FE8470008D8287 /* Frameworks */,
+				8EE66B6125FE8470008D8287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE66B6525FE8470008D8287 /* PBXTargetDependency */,
+			);
+			name = "Learnify-AppTests";
+			productName = "Learnify-AppTests";
+			productReference = 8EE66B6325FE8470008D8287 /* Learnify-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EE66B6D25FE8470008D8287 /* Learnify-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE66B7D25FE8470008D8287 /* Build configuration list for PBXNativeTarget "Learnify-AppUITests" */;
+			buildPhases = (
+				8EE66B6A25FE8470008D8287 /* Sources */,
+				8EE66B6B25FE8470008D8287 /* Frameworks */,
+				8EE66B6C25FE8470008D8287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE66B7025FE8470008D8287 /* PBXTargetDependency */,
+			);
+			name = "Learnify-AppUITests";
+			productName = "Learnify-AppUITests";
+			productReference = 8EE66B6E25FE8470008D8287 /* Learnify-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE66B4225FE846E008D8287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Victor Doyle";
+				TargetAttributes = {
+					8EE66B4925FE846E008D8287 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					8EE66B6225FE8470008D8287 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 8EE66B4925FE846E008D8287;
+					};
+					8EE66B6D25FE8470008D8287 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 8EE66B4925FE846E008D8287;
+					};
+				};
+			};
+			buildConfigurationList = 8EE66B4525FE846E008D8287 /* Build configuration list for PBXProject "Learnify-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE66B4125FE846E008D8287;
+			productRefGroup = 8EE66B4B25FE846E008D8287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE66B4925FE846E008D8287 /* Learnify-App */,
+				8EE66B6225FE8470008D8287 /* Learnify-AppTests */,
+				8EE66B6D25FE8470008D8287 /* Learnify-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE66B4825FE846E008D8287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE66B5D25FE8470008D8287 /* LaunchScreen.storyboard in Resources */,
+				8EE66B5A25FE8470008D8287 /* Assets.xcassets in Resources */,
+				8EE66B5525FE846E008D8287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE66B6125FE8470008D8287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE66B6C25FE8470008D8287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE66B4625FE846E008D8287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE66B5225FE846E008D8287 /* ViewController.swift in Sources */,
+				8EE66B4E25FE846E008D8287 /* AppDelegate.swift in Sources */,
+				8EE66B5025FE846E008D8287 /* SceneDelegate.swift in Sources */,
+				8EE66B5825FE846E008D8287 /* Learnify_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE66B5F25FE8470008D8287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE66B6825FE8470008D8287 /* Learnify_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE66B6A25FE8470008D8287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE66B7325FE8470008D8287 /* Learnify_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EE66B6525FE8470008D8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE66B4925FE846E008D8287 /* Learnify-App */;
+			targetProxy = 8EE66B6425FE8470008D8287 /* PBXContainerItemProxy */;
+		};
+		8EE66B7025FE8470008D8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE66B4925FE846E008D8287 /* Learnify-App */;
+			targetProxy = 8EE66B6F25FE8470008D8287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EE66B5325FE846E008D8287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE66B5425FE846E008D8287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EE66B5B25FE8470008D8287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE66B5C25FE8470008D8287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EE66B7525FE8470008D8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE66B7625FE8470008D8287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE66B7825FE8470008D8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK4RVZB5ML;
+				INFOPLIST_FILE = "Learnify-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VictorDoyle.Learnify-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EE66B7925FE8470008D8287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK4RVZB5ML;
+				INFOPLIST_FILE = "Learnify-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VictorDoyle.Learnify-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EE66B7B25FE8470008D8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK4RVZB5ML;
+				INFOPLIST_FILE = "Learnify-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VictorDoyle.Learnify-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnify-App.app/Learnify-App";
+			};
+			name = Debug;
+		};
+		8EE66B7C25FE8470008D8287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK4RVZB5ML;
+				INFOPLIST_FILE = "Learnify-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VictorDoyle.Learnify-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnify-App.app/Learnify-App";
+			};
+			name = Release;
+		};
+		8EE66B7E25FE8470008D8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK4RVZB5ML;
+				INFOPLIST_FILE = "Learnify-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VictorDoyle.Learnify-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learnify-App";
+			};
+			name = Debug;
+		};
+		8EE66B7F25FE8470008D8287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK4RVZB5ML;
+				INFOPLIST_FILE = "Learnify-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VictorDoyle.Learnify-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learnify-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE66B4525FE846E008D8287 /* Build configuration list for PBXProject "Learnify-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE66B7525FE8470008D8287 /* Debug */,
+				8EE66B7625FE8470008D8287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE66B7725FE8470008D8287 /* Build configuration list for PBXNativeTarget "Learnify-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE66B7825FE8470008D8287 /* Debug */,
+				8EE66B7925FE8470008D8287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE66B7A25FE8470008D8287 /* Build configuration list for PBXNativeTarget "Learnify-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE66B7B25FE8470008D8287 /* Debug */,
+				8EE66B7C25FE8470008D8287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE66B7D25FE8470008D8287 /* Build configuration list for PBXNativeTarget "Learnify-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE66B7E25FE8470008D8287 /* Debug */,
+				8EE66B7F25FE8470008D8287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EE66B5625FE846E008D8287 /* Learnify_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EE66B5725FE846E008D8287 /* Learnify_App.xcdatamodel */,
+			);
+			currentVersion = 8EE66B5725FE846E008D8287 /* Learnify_App.xcdatamodel */;
+			path = Learnify_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EE66B4225FE846E008D8287 /* Project object */;
+}
